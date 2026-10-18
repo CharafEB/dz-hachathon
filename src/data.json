@@ -1,0 +1,4760 @@
+{
+  "departments": [
+    {
+      "id": "DEP-CS",
+      "name": "Computer Science",
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "M1",
+        "M2"
+      ]
+    },
+    {
+      "id": "DEP-MATH",
+      "name": "Mathematics",
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "id": "B1",
+      "name": "Computer Science Building",
+      "location": "North Campus"
+    },
+    {
+      "id": "B2",
+      "name": "Sciences Building",
+      "location": "South Campus"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "A1",
+      "code": "AMPHI-1",
+      "name": "Amphi 1",
+      "building_id": "B1",
+      "capacity": 250,
+      "room_type": "Amphitheatre"
+    },
+    {
+      "id": "A2",
+      "code": "AMPHI-2",
+      "name": "Amphi 2",
+      "building_id": "B1",
+      "capacity": 250,
+      "room_type": "Amphitheatre"
+    },
+    {
+      "id": "A3",
+      "code": "AMPHI-3",
+      "name": "Amphi 3",
+      "building_id": "B1",
+      "capacity": 250,
+      "room_type": "Amphitheatre"
+    },
+    {
+      "id": "A4",
+      "code": "AMPHI-4",
+      "name": "Amphi 4",
+      "building_id": "B1",
+      "capacity": 250,
+      "room_type": "Amphitheatre"
+    },
+    {
+      "id": "A5",
+      "code": "AMPHI-5",
+      "name": "Amphi 5",
+      "building_id": "B1",
+      "capacity": 250,
+      "room_type": "Amphitheatre"
+    },
+    {
+      "id": "C1",
+      "code": "C-101",
+      "name": "Room 101",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C2",
+      "code": "C-102",
+      "name": "Room 102",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C3",
+      "code": "C-103",
+      "name": "Room 103",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C4",
+      "code": "C-104",
+      "name": "Room 104",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C5",
+      "code": "C-105",
+      "name": "Room 105",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C6",
+      "code": "C-106",
+      "name": "Room 106",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C7",
+      "code": "C-107",
+      "name": "Room 107",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C8",
+      "code": "C-108",
+      "name": "Room 108",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C9",
+      "code": "C-109",
+      "name": "Room 109",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C10",
+      "code": "C-110",
+      "name": "Room 110",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C11",
+      "code": "C-111",
+      "name": "Room 111",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C12",
+      "code": "C-112",
+      "name": "Room 112",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C13",
+      "code": "C-113",
+      "name": "Room 113",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C14",
+      "code": "C-114",
+      "name": "Room 114",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C15",
+      "code": "C-115",
+      "name": "Room 115",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C16",
+      "code": "C-116",
+      "name": "Room 116",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C17",
+      "code": "C-117",
+      "name": "Room 117",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C18",
+      "code": "C-118",
+      "name": "Room 118",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C19",
+      "code": "C-119",
+      "name": "Room 119",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "C20",
+      "code": "C-120",
+      "name": "Room 120",
+      "building_id": "B1",
+      "capacity": 40,
+      "room_type": "Classroom"
+    },
+    {
+      "id": "L1",
+      "code": "LAB-1",
+      "name": "Lab 1",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    },
+    {
+      "id": "L2",
+      "code": "LAB-2",
+      "name": "Lab 2",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    },
+    {
+      "id": "L3",
+      "code": "LAB-3",
+      "name": "Lab 3",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    },
+    {
+      "id": "L4",
+      "code": "LAB-4",
+      "name": "Lab 4",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    },
+    {
+      "id": "L5",
+      "code": "LAB-5",
+      "name": "Lab 5",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    },
+    {
+      "id": "L6",
+      "code": "LAB-6",
+      "name": "Lab 6",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    },
+    {
+      "id": "L7",
+      "code": "LAB-7",
+      "name": "Lab 7",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    },
+    {
+      "id": "L8",
+      "code": "LAB-8",
+      "name": "Lab 8",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    },
+    {
+      "id": "L9",
+      "code": "LAB-9",
+      "name": "Lab 9",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    },
+    {
+      "id": "L10",
+      "code": "LAB-10",
+      "name": "Lab 10",
+      "building_id": "B2",
+      "capacity": 30,
+      "room_type": "Lab"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "T1",
+      "name": "Teacher 1",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-3"
+      ]
+    },
+    {
+      "id": "T2",
+      "name": "Teacher 2",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "WED-1"
+      ]
+    },
+    {
+      "id": "T3",
+      "name": "Teacher 3",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "WED-1"
+      ]
+    },
+    {
+      "id": "T4",
+      "name": "Teacher 4",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T5",
+      "name": "Teacher 5",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "MON-3"
+      ]
+    },
+    {
+      "id": "T6",
+      "name": "Teacher 6",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "TUE-3"
+      ]
+    },
+    {
+      "id": "T7",
+      "name": "Teacher 7",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T8",
+      "name": "Teacher 8",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T9",
+      "name": "Teacher 9",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "MON-1"
+      ]
+    },
+    {
+      "id": "T10",
+      "name": "Teacher 10",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "WED-2"
+      ]
+    },
+    {
+      "id": "T11",
+      "name": "Teacher 11",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "WED-2"
+      ]
+    },
+    {
+      "id": "T12",
+      "name": "Teacher 12",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "MON-0"
+      ]
+    },
+    {
+      "id": "T13",
+      "name": "Teacher 13",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T14",
+      "name": "Teacher 14",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T15",
+      "name": "Teacher 15",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T16",
+      "name": "Teacher 16",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "WED-1"
+      ]
+    },
+    {
+      "id": "T17",
+      "name": "Teacher 17",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-3"
+      ]
+    },
+    {
+      "id": "T18",
+      "name": "Teacher 18",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T19",
+      "name": "Teacher 19",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T20",
+      "name": "Teacher 20",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T21",
+      "name": "Teacher 21",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "WED-1"
+      ]
+    },
+    {
+      "id": "T22",
+      "name": "Teacher 22",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T23",
+      "name": "Teacher 23",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-4"
+      ]
+    },
+    {
+      "id": "T24",
+      "name": "Teacher 24",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T25",
+      "name": "Teacher 25",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T26",
+      "name": "Teacher 26",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "MON-1"
+      ]
+    },
+    {
+      "id": "T27",
+      "name": "Teacher 27",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "TUE-4"
+      ]
+    },
+    {
+      "id": "T28",
+      "name": "Teacher 28",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T29",
+      "name": "Teacher 29",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-4"
+      ]
+    },
+    {
+      "id": "T30",
+      "name": "Teacher 30",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-1"
+      ]
+    },
+    {
+      "id": "T31",
+      "name": "Teacher 31",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "MON-1"
+      ]
+    },
+    {
+      "id": "T32",
+      "name": "Teacher 32",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T33",
+      "name": "Teacher 33",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-0"
+      ]
+    },
+    {
+      "id": "T34",
+      "name": "Teacher 34",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "MON-0"
+      ]
+    },
+    {
+      "id": "T35",
+      "name": "Teacher 35",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "TUE-3"
+      ]
+    },
+    {
+      "id": "T36",
+      "name": "Teacher 36",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T37",
+      "name": "Teacher 37",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T38",
+      "name": "Teacher 38",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T39",
+      "name": "Teacher 39",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T40",
+      "name": "Teacher 40",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T41",
+      "name": "Teacher 41",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "TUE-0"
+      ]
+    },
+    {
+      "id": "T42",
+      "name": "Teacher 42",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T43",
+      "name": "Teacher 43",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T44",
+      "name": "Teacher 44",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-2"
+      ]
+    },
+    {
+      "id": "T45",
+      "name": "Teacher 45",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-2"
+      ]
+    },
+    {
+      "id": "T46",
+      "name": "Teacher 46",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "TUE-0"
+      ]
+    },
+    {
+      "id": "T47",
+      "name": "Teacher 47",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T48",
+      "name": "Teacher 48",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "THU-4"
+      ]
+    },
+    {
+      "id": "T49",
+      "name": "Teacher 49",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "MON-4"
+      ]
+    },
+    {
+      "id": "T50",
+      "name": "Teacher 50",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T51",
+      "name": "Teacher 51",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T52",
+      "name": "Teacher 52",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T53",
+      "name": "Teacher 53",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "TUE-0"
+      ]
+    },
+    {
+      "id": "T54",
+      "name": "Teacher 54",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T55",
+      "name": "Teacher 55",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "THU-4"
+      ]
+    },
+    {
+      "id": "T56",
+      "name": "Teacher 56",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "TUE-2"
+      ]
+    },
+    {
+      "id": "T57",
+      "name": "Teacher 57",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T58",
+      "name": "Teacher 58",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T59",
+      "name": "Teacher 59",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T60",
+      "name": "Teacher 60",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-1"
+      ]
+    },
+    {
+      "id": "T61",
+      "name": "Teacher 61",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T62",
+      "name": "Teacher 62",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T63",
+      "name": "Teacher 63",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "WED-1"
+      ]
+    },
+    {
+      "id": "T64",
+      "name": "Teacher 64",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "FRI-4"
+      ]
+    },
+    {
+      "id": "T65",
+      "name": "Teacher 65",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T66",
+      "name": "Teacher 66",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T67",
+      "name": "Teacher 67",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T68",
+      "name": "Teacher 68",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T69",
+      "name": "Teacher 69",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T70",
+      "name": "Teacher 70",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "MON-1"
+      ]
+    },
+    {
+      "id": "T71",
+      "name": "Teacher 71",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T72",
+      "name": "Teacher 72",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T73",
+      "name": "Teacher 73",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T74",
+      "name": "Teacher 74",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "TUE-4"
+      ]
+    },
+    {
+      "id": "T75",
+      "name": "Teacher 75",
+      "department_id": "DEP-CS",
+      "specializations": [
+        "Algorithmique",
+        "Data Structures"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T76",
+      "name": "Teacher 76",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T77",
+      "name": "Teacher 77",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "WED-1"
+      ]
+    },
+    {
+      "id": "T78",
+      "name": "Teacher 78",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": [
+        "WED-0"
+      ]
+    },
+    {
+      "id": "T79",
+      "name": "Teacher 79",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    },
+    {
+      "id": "T80",
+      "name": "Teacher 80",
+      "department_id": "DEP-MATH",
+      "specializations": [
+        "Algebra",
+        "Analysis"
+      ],
+      "max_hours": 9.0,
+      "unavailable_slots": []
+    }
+  ],
+  "groups": [
+    {
+      "id": "DEP-CS-L1-G1",
+      "name": "Computer Science L1 Promo 1",
+      "level": "L1",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-L1-G1-TD1",
+          "name": "TD1",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L1-G1-TD2",
+          "name": "TD2",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L1-G1-TD3",
+          "name": "TD3",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L1-G1-TD4",
+          "name": "TD4",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L1-G1-TD5",
+          "name": "TD5",
+          "size": 27
+        }
+      ]
+    },
+    {
+      "id": "DEP-CS-L1-G2",
+      "name": "Computer Science L1 Promo 2",
+      "level": "L1",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-L1-G2-TD1",
+          "name": "TD1",
+          "size": 29
+        },
+        {
+          "id": "DEP-CS-L1-G2-TD2",
+          "name": "TD2",
+          "size": 29
+        },
+        {
+          "id": "DEP-CS-L1-G2-TD3",
+          "name": "TD3",
+          "size": 29
+        },
+        {
+          "id": "DEP-CS-L1-G2-TD4",
+          "name": "TD4",
+          "size": 29
+        }
+      ]
+    },
+    {
+      "id": "DEP-CS-L2-G1",
+      "name": "Computer Science L2 Promo 1",
+      "level": "L2",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-L2-G1-TD1",
+          "name": "TD1",
+          "size": 30
+        },
+        {
+          "id": "DEP-CS-L2-G1-TD2",
+          "name": "TD2",
+          "size": 29
+        },
+        {
+          "id": "DEP-CS-L2-G1-TD3",
+          "name": "TD3",
+          "size": 29
+        }
+      ]
+    },
+    {
+      "id": "DEP-CS-L2-G2",
+      "name": "Computer Science L2 Promo 2",
+      "level": "L2",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-L2-G2-TD1",
+          "name": "TD1",
+          "size": 30
+        },
+        {
+          "id": "DEP-CS-L2-G2-TD2",
+          "name": "TD2",
+          "size": 29
+        },
+        {
+          "id": "DEP-CS-L2-G2-TD3",
+          "name": "TD3",
+          "size": 29
+        }
+      ]
+    },
+    {
+      "id": "DEP-CS-L3-G1",
+      "name": "Computer Science L3 Promo 1",
+      "level": "L3",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-L3-G1-TD1",
+          "name": "TD1",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L3-G1-TD2",
+          "name": "TD2",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L3-G1-TD3",
+          "name": "TD3",
+          "size": 27
+        }
+      ]
+    },
+    {
+      "id": "DEP-CS-L3-G2",
+      "name": "Computer Science L3 Promo 2",
+      "level": "L3",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-L3-G2-TD1",
+          "name": "TD1",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L3-G2-TD2",
+          "name": "TD2",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L3-G2-TD3",
+          "name": "TD3",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L3-G2-TD4",
+          "name": "TD4",
+          "size": 27
+        },
+        {
+          "id": "DEP-CS-L3-G2-TD5",
+          "name": "TD5",
+          "size": 26
+        }
+      ]
+    },
+    {
+      "id": "DEP-CS-M1-G1",
+      "name": "Computer Science M1 Promo 1",
+      "level": "M1",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-M1-G1-TD1",
+          "name": "TD1",
+          "size": 25
+        },
+        {
+          "id": "DEP-CS-M1-G1-TD2",
+          "name": "TD2",
+          "size": 24
+        },
+        {
+          "id": "DEP-CS-M1-G1-TD3",
+          "name": "TD3",
+          "size": 24
+        },
+        {
+          "id": "DEP-CS-M1-G1-TD4",
+          "name": "TD4",
+          "size": 24
+        }
+      ]
+    },
+    {
+      "id": "DEP-CS-M1-G2",
+      "name": "Computer Science M1 Promo 2",
+      "level": "M1",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-M1-G2-TD1",
+          "name": "TD1",
+          "size": 29
+        },
+        {
+          "id": "DEP-CS-M1-G2-TD2",
+          "name": "TD2",
+          "size": 29
+        },
+        {
+          "id": "DEP-CS-M1-G2-TD3",
+          "name": "TD3",
+          "size": 28
+        }
+      ]
+    },
+    {
+      "id": "DEP-CS-M2-G1",
+      "name": "Computer Science M2 Promo 1",
+      "level": "M2",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-M2-G1-TD1",
+          "name": "TD1",
+          "size": 23
+        },
+        {
+          "id": "DEP-CS-M2-G1-TD2",
+          "name": "TD2",
+          "size": 23
+        },
+        {
+          "id": "DEP-CS-M2-G1-TD3",
+          "name": "TD3",
+          "size": 23
+        },
+        {
+          "id": "DEP-CS-M2-G1-TD4",
+          "name": "TD4",
+          "size": 23
+        }
+      ]
+    },
+    {
+      "id": "DEP-CS-M2-G2",
+      "name": "Computer Science M2 Promo 2",
+      "level": "M2",
+      "sub_groups": [
+        {
+          "id": "DEP-CS-M2-G2-TD1",
+          "name": "TD1",
+          "size": 29
+        },
+        {
+          "id": "DEP-CS-M2-G2-TD2",
+          "name": "TD2",
+          "size": 29
+        },
+        {
+          "id": "DEP-CS-M2-G2-TD3",
+          "name": "TD3",
+          "size": 29
+        }
+      ]
+    },
+    {
+      "id": "DEP-MATH-L1-G1",
+      "name": "Mathematics L1 Promo 1",
+      "level": "L1",
+      "sub_groups": [
+        {
+          "id": "DEP-MATH-L1-G1-TD1",
+          "name": "TD1",
+          "size": 25
+        },
+        {
+          "id": "DEP-MATH-L1-G1-TD2",
+          "name": "TD2",
+          "size": 25
+        },
+        {
+          "id": "DEP-MATH-L1-G1-TD3",
+          "name": "TD3",
+          "size": 24
+        },
+        {
+          "id": "DEP-MATH-L1-G1-TD4",
+          "name": "TD4",
+          "size": 24
+        },
+        {
+          "id": "DEP-MATH-L1-G1-TD5",
+          "name": "TD5",
+          "size": 24
+        }
+      ]
+    },
+    {
+      "id": "DEP-MATH-L1-G2",
+      "name": "Mathematics L1 Promo 2",
+      "level": "L1",
+      "sub_groups": [
+        {
+          "id": "DEP-MATH-L1-G2-TD1",
+          "name": "TD1",
+          "size": 25
+        },
+        {
+          "id": "DEP-MATH-L1-G2-TD2",
+          "name": "TD2",
+          "size": 25
+        },
+        {
+          "id": "DEP-MATH-L1-G2-TD3",
+          "name": "TD3",
+          "size": 25
+        },
+        {
+          "id": "DEP-MATH-L1-G2-TD4",
+          "name": "TD4",
+          "size": 25
+        },
+        {
+          "id": "DEP-MATH-L1-G2-TD5",
+          "name": "TD5",
+          "size": 24
+        }
+      ]
+    },
+    {
+      "id": "DEP-MATH-L2-G1",
+      "name": "Mathematics L2 Promo 1",
+      "level": "L2",
+      "sub_groups": [
+        {
+          "id": "DEP-MATH-L2-G1-TD1",
+          "name": "TD1",
+          "size": 27
+        },
+        {
+          "id": "DEP-MATH-L2-G1-TD2",
+          "name": "TD2",
+          "size": 27
+        },
+        {
+          "id": "DEP-MATH-L2-G1-TD3",
+          "name": "TD3",
+          "size": 27
+        },
+        {
+          "id": "DEP-MATH-L2-G1-TD4",
+          "name": "TD4",
+          "size": 26
+        },
+        {
+          "id": "DEP-MATH-L2-G1-TD5",
+          "name": "TD5",
+          "size": 26
+        }
+      ]
+    },
+    {
+      "id": "DEP-MATH-L2-G2",
+      "name": "Mathematics L2 Promo 2",
+      "level": "L2",
+      "sub_groups": [
+        {
+          "id": "DEP-MATH-L2-G2-TD1",
+          "name": "TD1",
+          "size": 28
+        },
+        {
+          "id": "DEP-MATH-L2-G2-TD2",
+          "name": "TD2",
+          "size": 28
+        },
+        {
+          "id": "DEP-MATH-L2-G2-TD3",
+          "name": "TD3",
+          "size": 28
+        },
+        {
+          "id": "DEP-MATH-L2-G2-TD4",
+          "name": "TD4",
+          "size": 27
+        },
+        {
+          "id": "DEP-MATH-L2-G2-TD5",
+          "name": "TD5",
+          "size": 27
+        }
+      ]
+    },
+    {
+      "id": "DEP-MATH-L3-G1",
+      "name": "Mathematics L3 Promo 1",
+      "level": "L3",
+      "sub_groups": [
+        {
+          "id": "DEP-MATH-L3-G1-TD1",
+          "name": "TD1",
+          "size": 27
+        },
+        {
+          "id": "DEP-MATH-L3-G1-TD2",
+          "name": "TD2",
+          "size": 27
+        },
+        {
+          "id": "DEP-MATH-L3-G1-TD3",
+          "name": "TD3",
+          "size": 26
+        },
+        {
+          "id": "DEP-MATH-L3-G1-TD4",
+          "name": "TD4",
+          "size": 26
+        }
+      ]
+    },
+    {
+      "id": "DEP-MATH-L3-G2",
+      "name": "Mathematics L3 Promo 2",
+      "level": "L3",
+      "sub_groups": [
+        {
+          "id": "DEP-MATH-L3-G2-TD1",
+          "name": "TD1",
+          "size": 30
+        },
+        {
+          "id": "DEP-MATH-L3-G2-TD2",
+          "name": "TD2",
+          "size": 29
+        },
+        {
+          "id": "DEP-MATH-L3-G2-TD3",
+          "name": "TD3",
+          "size": 29
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "DEP-CS-L1-C1",
+      "code": "C001",
+      "name": "Course 1 of L1 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "L1",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-L1-C2",
+      "code": "C002",
+      "name": "Course 2 of L1 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "L1",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-L1-C3",
+      "code": "C003",
+      "name": "Course 3 of L1 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "L1",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-L2-C1",
+      "code": "C004",
+      "name": "Course 1 of L2 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "L2",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-L2-C2",
+      "code": "C005",
+      "name": "Course 2 of L2 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "L2",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-L2-C3",
+      "code": "C006",
+      "name": "Course 3 of L2 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "L2",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-L3-C1",
+      "code": "C007",
+      "name": "Course 1 of L3 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "L3",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-L3-C2",
+      "code": "C008",
+      "name": "Course 2 of L3 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "L3",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-L3-C3",
+      "code": "C009",
+      "name": "Course 3 of L3 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "L3",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-M1-C1",
+      "code": "C010",
+      "name": "Course 1 of M1 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "M1",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-M1-C2",
+      "code": "C011",
+      "name": "Course 2 of M1 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "M1",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-M1-C3",
+      "code": "C012",
+      "name": "Course 3 of M1 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "M1",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-M2-C1",
+      "code": "C013",
+      "name": "Course 1 of M2 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "M2",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-M2-C2",
+      "code": "C014",
+      "name": "Course 2 of M2 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "M2",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-CS-M2-C3",
+      "code": "C015",
+      "name": "Course 3 of M2 (Computer Science)",
+      "department_id": "DEP-CS",
+      "level": "M2",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 1
+    },
+    {
+      "id": "DEP-MATH-L1-C1",
+      "code": "C016",
+      "name": "Course 1 of L1 (Mathematics)",
+      "department_id": "DEP-MATH",
+      "level": "L1",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 0
+    },
+    {
+      "id": "DEP-MATH-L1-C2",
+      "code": "C017",
+      "name": "Course 2 of L1 (Mathematics)",
+      "department_id": "DEP-MATH",
+      "level": "L1",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 0
+    },
+    {
+      "id": "DEP-MATH-L1-C3",
+      "code": "C018",
+      "name": "Course 3 of L1 (Mathematics)",
+      "department_id": "DEP-MATH",
+      "level": "L1",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 0
+    },
+    {
+      "id": "DEP-MATH-L2-C1",
+      "code": "C019",
+      "name": "Course 1 of L2 (Mathematics)",
+      "department_id": "DEP-MATH",
+      "level": "L2",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 0
+    },
+    {
+      "id": "DEP-MATH-L2-C2",
+      "code": "C020",
+      "name": "Course 2 of L2 (Mathematics)",
+      "department_id": "DEP-MATH",
+      "level": "L2",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 0
+    },
+    {
+      "id": "DEP-MATH-L2-C3",
+      "code": "C021",
+      "name": "Course 3 of L2 (Mathematics)",
+      "department_id": "DEP-MATH",
+      "level": "L2",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 0
+    },
+    {
+      "id": "DEP-MATH-L3-C1",
+      "code": "C022",
+      "name": "Course 1 of L3 (Mathematics)",
+      "department_id": "DEP-MATH",
+      "level": "L3",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 0
+    },
+    {
+      "id": "DEP-MATH-L3-C2",
+      "code": "C023",
+      "name": "Course 2 of L3 (Mathematics)",
+      "department_id": "DEP-MATH",
+      "level": "L3",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 0
+    },
+    {
+      "id": "DEP-MATH-L3-C3",
+      "code": "C024",
+      "name": "Course 3 of L3 (Mathematics)",
+      "department_id": "DEP-MATH",
+      "level": "L3",
+      "lectures_per_week": 1,
+      "tds_per_week": 1,
+      "tps_per_week": 0
+    }
+  ],
+  "session_requirements": [
+    {
+      "id": "REQ-1",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T1",
+      "target_id": "DEP-CS-L1-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-2",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T11",
+      "target_id": "DEP-CS-L1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-3",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TP",
+      "teacher_id": "T54",
+      "target_id": "DEP-CS-L1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-4",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T10",
+      "target_id": "DEP-CS-L1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-5",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TP",
+      "teacher_id": "T17",
+      "target_id": "DEP-CS-L1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-6",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T51",
+      "target_id": "DEP-CS-L1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-7",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TP",
+      "teacher_id": "T23",
+      "target_id": "DEP-CS-L1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-8",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T11",
+      "target_id": "DEP-CS-L1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-9",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TP",
+      "teacher_id": "T11",
+      "target_id": "DEP-CS-L1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-10",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T21",
+      "target_id": "DEP-CS-L1-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-11",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TP",
+      "teacher_id": "T50",
+      "target_id": "DEP-CS-L1-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-12",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T10",
+      "target_id": "DEP-CS-L1-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-13",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T16",
+      "target_id": "DEP-CS-L1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-14",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TP",
+      "teacher_id": "T58",
+      "target_id": "DEP-CS-L1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-15",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T65",
+      "target_id": "DEP-CS-L1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-16",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TP",
+      "teacher_id": "T17",
+      "target_id": "DEP-CS-L1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-17",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T51",
+      "target_id": "DEP-CS-L1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-18",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TP",
+      "teacher_id": "T30",
+      "target_id": "DEP-CS-L1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-19",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T52",
+      "target_id": "DEP-CS-L1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-20",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TP",
+      "teacher_id": "T65",
+      "target_id": "DEP-CS-L1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-21",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T52",
+      "target_id": "DEP-CS-L1-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-22",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TP",
+      "teacher_id": "T63",
+      "target_id": "DEP-CS-L1-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-23",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T11",
+      "target_id": "DEP-CS-L1-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-24",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T65",
+      "target_id": "DEP-CS-L1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-25",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TP",
+      "teacher_id": "T36",
+      "target_id": "DEP-CS-L1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-26",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T16",
+      "target_id": "DEP-CS-L1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-27",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TP",
+      "teacher_id": "T23",
+      "target_id": "DEP-CS-L1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-28",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T75",
+      "target_id": "DEP-CS-L1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-29",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TP",
+      "teacher_id": "T58",
+      "target_id": "DEP-CS-L1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-30",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T17",
+      "target_id": "DEP-CS-L1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-31",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TP",
+      "teacher_id": "T22",
+      "target_id": "DEP-CS-L1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-32",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T65",
+      "target_id": "DEP-CS-L1-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-33",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TP",
+      "teacher_id": "T72",
+      "target_id": "DEP-CS-L1-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-34",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T17",
+      "target_id": "DEP-CS-L1-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-35",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T57",
+      "target_id": "DEP-CS-L1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-36",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TP",
+      "teacher_id": "T44",
+      "target_id": "DEP-CS-L1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-37",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T16",
+      "target_id": "DEP-CS-L1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-38",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TP",
+      "teacher_id": "T51",
+      "target_id": "DEP-CS-L1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-39",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T74",
+      "target_id": "DEP-CS-L1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-40",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TP",
+      "teacher_id": "T52",
+      "target_id": "DEP-CS-L1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-41",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T47",
+      "target_id": "DEP-CS-L1-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-42",
+      "course_id": "DEP-CS-L1-C1",
+      "session_type": "TP",
+      "teacher_id": "T31",
+      "target_id": "DEP-CS-L1-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-43",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T17",
+      "target_id": "DEP-CS-L1-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-44",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T65",
+      "target_id": "DEP-CS-L1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-45",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TP",
+      "teacher_id": "T10",
+      "target_id": "DEP-CS-L1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-46",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T11",
+      "target_id": "DEP-CS-L1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-47",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TP",
+      "teacher_id": "T57",
+      "target_id": "DEP-CS-L1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-48",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T16",
+      "target_id": "DEP-CS-L1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-49",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TP",
+      "teacher_id": "T16",
+      "target_id": "DEP-CS-L1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-50",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T75",
+      "target_id": "DEP-CS-L1-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-51",
+      "course_id": "DEP-CS-L1-C2",
+      "session_type": "TP",
+      "teacher_id": "T1",
+      "target_id": "DEP-CS-L1-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-52",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T1",
+      "target_id": "DEP-CS-L1-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-53",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T19",
+      "target_id": "DEP-CS-L1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-54",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TP",
+      "teacher_id": "T72",
+      "target_id": "DEP-CS-L1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-55",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T41",
+      "target_id": "DEP-CS-L1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-56",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TP",
+      "teacher_id": "T41",
+      "target_id": "DEP-CS-L1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-57",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T57",
+      "target_id": "DEP-CS-L1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-58",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TP",
+      "teacher_id": "T19",
+      "target_id": "DEP-CS-L1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-59",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T35",
+      "target_id": "DEP-CS-L1-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-60",
+      "course_id": "DEP-CS-L1-C3",
+      "session_type": "TP",
+      "teacher_id": "T50",
+      "target_id": "DEP-CS-L1-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-61",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T43",
+      "target_id": "DEP-CS-L2-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-62",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T43",
+      "target_id": "DEP-CS-L2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-63",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TP",
+      "teacher_id": "T57",
+      "target_id": "DEP-CS-L2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-64",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T58",
+      "target_id": "DEP-CS-L2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-65",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TP",
+      "teacher_id": "T50",
+      "target_id": "DEP-CS-L2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-66",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T1",
+      "target_id": "DEP-CS-L2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-67",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TP",
+      "teacher_id": "T52",
+      "target_id": "DEP-CS-L2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-68",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T1",
+      "target_id": "DEP-CS-L2-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-69",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T21",
+      "target_id": "DEP-CS-L2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-70",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TP",
+      "teacher_id": "T73",
+      "target_id": "DEP-CS-L2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-71",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T57",
+      "target_id": "DEP-CS-L2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-72",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TP",
+      "teacher_id": "T74",
+      "target_id": "DEP-CS-L2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-73",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T75",
+      "target_id": "DEP-CS-L2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-74",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TP",
+      "teacher_id": "T52",
+      "target_id": "DEP-CS-L2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-75",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T43",
+      "target_id": "DEP-CS-L2-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-76",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T7",
+      "target_id": "DEP-CS-L2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-77",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TP",
+      "teacher_id": "T41",
+      "target_id": "DEP-CS-L2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-78",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T36",
+      "target_id": "DEP-CS-L2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-79",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TP",
+      "teacher_id": "T30",
+      "target_id": "DEP-CS-L2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-80",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T7",
+      "target_id": "DEP-CS-L2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-81",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TP",
+      "teacher_id": "T51",
+      "target_id": "DEP-CS-L2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-82",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T7",
+      "target_id": "DEP-CS-L2-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-83",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T55",
+      "target_id": "DEP-CS-L2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-84",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TP",
+      "teacher_id": "T31",
+      "target_id": "DEP-CS-L2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-85",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T7",
+      "target_id": "DEP-CS-L2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-86",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TP",
+      "teacher_id": "T32",
+      "target_id": "DEP-CS-L2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-87",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T50",
+      "target_id": "DEP-CS-L2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-88",
+      "course_id": "DEP-CS-L2-C1",
+      "session_type": "TP",
+      "teacher_id": "T21",
+      "target_id": "DEP-CS-L2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-89",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T58",
+      "target_id": "DEP-CS-L2-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-90",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T47",
+      "target_id": "DEP-CS-L2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-91",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TP",
+      "teacher_id": "T7",
+      "target_id": "DEP-CS-L2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-92",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T21",
+      "target_id": "DEP-CS-L2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-93",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TP",
+      "teacher_id": "T32",
+      "target_id": "DEP-CS-L2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-94",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T47",
+      "target_id": "DEP-CS-L2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-95",
+      "course_id": "DEP-CS-L2-C2",
+      "session_type": "TP",
+      "teacher_id": "T58",
+      "target_id": "DEP-CS-L2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-96",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T19",
+      "target_id": "DEP-CS-L2-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-97",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T43",
+      "target_id": "DEP-CS-L2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-98",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TP",
+      "teacher_id": "T19",
+      "target_id": "DEP-CS-L2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-99",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T51",
+      "target_id": "DEP-CS-L2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-100",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TP",
+      "teacher_id": "T31",
+      "target_id": "DEP-CS-L2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-101",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T41",
+      "target_id": "DEP-CS-L2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-102",
+      "course_id": "DEP-CS-L2-C3",
+      "session_type": "TP",
+      "teacher_id": "T63",
+      "target_id": "DEP-CS-L2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-103",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T54",
+      "target_id": "DEP-CS-L3-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-104",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T23",
+      "target_id": "DEP-CS-L3-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-105",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TP",
+      "teacher_id": "T22",
+      "target_id": "DEP-CS-L3-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-106",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T55",
+      "target_id": "DEP-CS-L3-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-107",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TP",
+      "teacher_id": "T73",
+      "target_id": "DEP-CS-L3-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-108",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T23",
+      "target_id": "DEP-CS-L3-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-109",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TP",
+      "teacher_id": "T44",
+      "target_id": "DEP-CS-L3-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-110",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T31",
+      "target_id": "DEP-CS-L3-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-111",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T31",
+      "target_id": "DEP-CS-L3-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-112",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TP",
+      "teacher_id": "T41",
+      "target_id": "DEP-CS-L3-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-113",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T74",
+      "target_id": "DEP-CS-L3-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-114",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TP",
+      "teacher_id": "T72",
+      "target_id": "DEP-CS-L3-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-115",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T43",
+      "target_id": "DEP-CS-L3-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-116",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TP",
+      "teacher_id": "T30",
+      "target_id": "DEP-CS-L3-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-117",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T21",
+      "target_id": "DEP-CS-L3-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-118",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T73",
+      "target_id": "DEP-CS-L3-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-119",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TP",
+      "teacher_id": "T73",
+      "target_id": "DEP-CS-L3-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-120",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T73",
+      "target_id": "DEP-CS-L3-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-121",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TP",
+      "teacher_id": "T47",
+      "target_id": "DEP-CS-L3-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-122",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T54",
+      "target_id": "DEP-CS-L3-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-123",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TP",
+      "teacher_id": "T32",
+      "target_id": "DEP-CS-L3-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-124",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T54",
+      "target_id": "DEP-CS-L3-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-125",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T30",
+      "target_id": "DEP-CS-L3-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-126",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TP",
+      "teacher_id": "T30",
+      "target_id": "DEP-CS-L3-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-127",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T50",
+      "target_id": "DEP-CS-L3-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-128",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TP",
+      "teacher_id": "T35",
+      "target_id": "DEP-CS-L3-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-129",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T47",
+      "target_id": "DEP-CS-L3-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-130",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TP",
+      "teacher_id": "T63",
+      "target_id": "DEP-CS-L3-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-131",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T10",
+      "target_id": "DEP-CS-L3-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-132",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TP",
+      "teacher_id": "T19",
+      "target_id": "DEP-CS-L3-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-133",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T74",
+      "target_id": "DEP-CS-L3-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-134",
+      "course_id": "DEP-CS-L3-C1",
+      "session_type": "TP",
+      "teacher_id": "T10",
+      "target_id": "DEP-CS-L3-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-135",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T44",
+      "target_id": "DEP-CS-L3-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-136",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T55",
+      "target_id": "DEP-CS-L3-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-137",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TP",
+      "teacher_id": "T35",
+      "target_id": "DEP-CS-L3-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-138",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T74",
+      "target_id": "DEP-CS-L3-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-139",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TP",
+      "teacher_id": "T35",
+      "target_id": "DEP-CS-L3-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-140",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T55",
+      "target_id": "DEP-CS-L3-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-141",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TP",
+      "teacher_id": "T22",
+      "target_id": "DEP-CS-L3-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-142",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T32",
+      "target_id": "DEP-CS-L3-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-143",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TP",
+      "teacher_id": "T72",
+      "target_id": "DEP-CS-L3-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-144",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T23",
+      "target_id": "DEP-CS-L3-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-145",
+      "course_id": "DEP-CS-L3-C2",
+      "session_type": "TP",
+      "teacher_id": "T75",
+      "target_id": "DEP-CS-L3-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-146",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T36",
+      "target_id": "DEP-CS-L3-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-147",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T75",
+      "target_id": "DEP-CS-L3-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-148",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TP",
+      "teacher_id": "T32",
+      "target_id": "DEP-CS-L3-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-149",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T63",
+      "target_id": "DEP-CS-L3-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-150",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TP",
+      "teacher_id": "T35",
+      "target_id": "DEP-CS-L3-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-151",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T36",
+      "target_id": "DEP-CS-L3-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-152",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TP",
+      "teacher_id": "T55",
+      "target_id": "DEP-CS-L3-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-153",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T63",
+      "target_id": "DEP-CS-L3-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-154",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TP",
+      "teacher_id": "T44",
+      "target_id": "DEP-CS-L3-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-155",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T36",
+      "target_id": "DEP-CS-L3-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-156",
+      "course_id": "DEP-CS-L3-C3",
+      "session_type": "TP",
+      "teacher_id": "T44",
+      "target_id": "DEP-CS-L3-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-157",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T54",
+      "target_id": "DEP-CS-M1-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-158",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TD",
+      "teacher_id": "T72",
+      "target_id": "DEP-CS-M1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-159",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TP",
+      "teacher_id": "T22",
+      "target_id": "DEP-CS-M1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-160",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TD",
+      "teacher_id": "T22",
+      "target_id": "DEP-CS-M1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-161",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TP",
+      "teacher_id": "T25",
+      "target_id": "DEP-CS-M1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-162",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TD",
+      "teacher_id": "T33",
+      "target_id": "DEP-CS-M1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-163",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TP",
+      "teacher_id": "T68",
+      "target_id": "DEP-CS-M1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-164",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TD",
+      "teacher_id": "T14",
+      "target_id": "DEP-CS-M1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-165",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TP",
+      "teacher_id": "T12",
+      "target_id": "DEP-CS-M1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-166",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T76",
+      "target_id": "DEP-CS-M1-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-167",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TD",
+      "teacher_id": "T26",
+      "target_id": "DEP-CS-M1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-168",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TP",
+      "teacher_id": "T15",
+      "target_id": "DEP-CS-M1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-169",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TD",
+      "teacher_id": "T46",
+      "target_id": "DEP-CS-M1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-170",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TP",
+      "teacher_id": "T59",
+      "target_id": "DEP-CS-M1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-171",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TD",
+      "teacher_id": "T12",
+      "target_id": "DEP-CS-M1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-172",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TP",
+      "teacher_id": "T2",
+      "target_id": "DEP-CS-M1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-173",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TD",
+      "teacher_id": "T38",
+      "target_id": "DEP-CS-M1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-174",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TP",
+      "teacher_id": "T29",
+      "target_id": "DEP-CS-M1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-175",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T15",
+      "target_id": "DEP-CS-M1-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-176",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TD",
+      "teacher_id": "T20",
+      "target_id": "DEP-CS-M1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-177",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TP",
+      "teacher_id": "T46",
+      "target_id": "DEP-CS-M1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-178",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TD",
+      "teacher_id": "T76",
+      "target_id": "DEP-CS-M1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-179",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TP",
+      "teacher_id": "T29",
+      "target_id": "DEP-CS-M1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-180",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TD",
+      "teacher_id": "T60",
+      "target_id": "DEP-CS-M1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-181",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TP",
+      "teacher_id": "T4",
+      "target_id": "DEP-CS-M1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-182",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TD",
+      "teacher_id": "T15",
+      "target_id": "DEP-CS-M1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-183",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TP",
+      "teacher_id": "T69",
+      "target_id": "DEP-CS-M1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-184",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T14",
+      "target_id": "DEP-CS-M1-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-185",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TD",
+      "teacher_id": "T29",
+      "target_id": "DEP-CS-M1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-186",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TP",
+      "teacher_id": "T38",
+      "target_id": "DEP-CS-M1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-187",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TD",
+      "teacher_id": "T66",
+      "target_id": "DEP-CS-M1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-188",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TP",
+      "teacher_id": "T71",
+      "target_id": "DEP-CS-M1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-189",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TD",
+      "teacher_id": "T13",
+      "target_id": "DEP-CS-M1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-190",
+      "course_id": "DEP-CS-M1-C1",
+      "session_type": "TP",
+      "teacher_id": "T78",
+      "target_id": "DEP-CS-M1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-191",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T12",
+      "target_id": "DEP-CS-M1-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-192",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TD",
+      "teacher_id": "T59",
+      "target_id": "DEP-CS-M1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-193",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TP",
+      "teacher_id": "T4",
+      "target_id": "DEP-CS-M1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-194",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TD",
+      "teacher_id": "T48",
+      "target_id": "DEP-CS-M1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-195",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TP",
+      "teacher_id": "T66",
+      "target_id": "DEP-CS-M1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-196",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TD",
+      "teacher_id": "T40",
+      "target_id": "DEP-CS-M1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-197",
+      "course_id": "DEP-CS-M1-C2",
+      "session_type": "TP",
+      "teacher_id": "T46",
+      "target_id": "DEP-CS-M1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-198",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T9",
+      "target_id": "DEP-CS-M1-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-199",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TD",
+      "teacher_id": "T80",
+      "target_id": "DEP-CS-M1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-200",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TP",
+      "teacher_id": "T45",
+      "target_id": "DEP-CS-M1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-201",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TD",
+      "teacher_id": "T12",
+      "target_id": "DEP-CS-M1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-202",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TP",
+      "teacher_id": "T3",
+      "target_id": "DEP-CS-M1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-203",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TD",
+      "teacher_id": "T40",
+      "target_id": "DEP-CS-M1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-204",
+      "course_id": "DEP-CS-M1-C3",
+      "session_type": "TP",
+      "teacher_id": "T5",
+      "target_id": "DEP-CS-M1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-205",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T20",
+      "target_id": "DEP-CS-M2-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-206",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TD",
+      "teacher_id": "T26",
+      "target_id": "DEP-CS-M2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-207",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TP",
+      "teacher_id": "T27",
+      "target_id": "DEP-CS-M2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-208",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TD",
+      "teacher_id": "T6",
+      "target_id": "DEP-CS-M2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-209",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TP",
+      "teacher_id": "T29",
+      "target_id": "DEP-CS-M2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-210",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TD",
+      "teacher_id": "T2",
+      "target_id": "DEP-CS-M2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-211",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TP",
+      "teacher_id": "T71",
+      "target_id": "DEP-CS-M2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-212",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TD",
+      "teacher_id": "T40",
+      "target_id": "DEP-CS-M2-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-213",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TP",
+      "teacher_id": "T59",
+      "target_id": "DEP-CS-M2-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-214",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T53",
+      "target_id": "DEP-CS-M2-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-215",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TD",
+      "teacher_id": "T61",
+      "target_id": "DEP-CS-M2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-216",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TP",
+      "teacher_id": "T8",
+      "target_id": "DEP-CS-M2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-217",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TD",
+      "teacher_id": "T53",
+      "target_id": "DEP-CS-M2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-218",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TP",
+      "teacher_id": "T49",
+      "target_id": "DEP-CS-M2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-219",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TD",
+      "teacher_id": "T26",
+      "target_id": "DEP-CS-M2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-220",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TP",
+      "teacher_id": "T71",
+      "target_id": "DEP-CS-M2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-221",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TD",
+      "teacher_id": "T25",
+      "target_id": "DEP-CS-M2-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-222",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TP",
+      "teacher_id": "T6",
+      "target_id": "DEP-CS-M2-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-223",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T61",
+      "target_id": "DEP-CS-M2-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-224",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TD",
+      "teacher_id": "T20",
+      "target_id": "DEP-CS-M2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-225",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TP",
+      "teacher_id": "T48",
+      "target_id": "DEP-CS-M2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-226",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TD",
+      "teacher_id": "T28",
+      "target_id": "DEP-CS-M2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-227",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TP",
+      "teacher_id": "T48",
+      "target_id": "DEP-CS-M2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-228",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TD",
+      "teacher_id": "T46",
+      "target_id": "DEP-CS-M2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-229",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TP",
+      "teacher_id": "T62",
+      "target_id": "DEP-CS-M2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-230",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TD",
+      "teacher_id": "T79",
+      "target_id": "DEP-CS-M2-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-231",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TP",
+      "teacher_id": "T4",
+      "target_id": "DEP-CS-M2-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-232",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T13",
+      "target_id": "DEP-CS-M2-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-233",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TD",
+      "teacher_id": "T14",
+      "target_id": "DEP-CS-M2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-234",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TP",
+      "teacher_id": "T67",
+      "target_id": "DEP-CS-M2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-235",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TD",
+      "teacher_id": "T62",
+      "target_id": "DEP-CS-M2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-236",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TP",
+      "teacher_id": "T67",
+      "target_id": "DEP-CS-M2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-237",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TD",
+      "teacher_id": "T20",
+      "target_id": "DEP-CS-M2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-238",
+      "course_id": "DEP-CS-M2-C1",
+      "session_type": "TP",
+      "teacher_id": "T79",
+      "target_id": "DEP-CS-M2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-239",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T79",
+      "target_id": "DEP-CS-M2-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-240",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TD",
+      "teacher_id": "T70",
+      "target_id": "DEP-CS-M2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-241",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TP",
+      "teacher_id": "T26",
+      "target_id": "DEP-CS-M2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-242",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TD",
+      "teacher_id": "T66",
+      "target_id": "DEP-CS-M2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-243",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TP",
+      "teacher_id": "T78",
+      "target_id": "DEP-CS-M2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-244",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TD",
+      "teacher_id": "T53",
+      "target_id": "DEP-CS-M2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-245",
+      "course_id": "DEP-CS-M2-C2",
+      "session_type": "TP",
+      "teacher_id": "T53",
+      "target_id": "DEP-CS-M2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-246",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T8",
+      "target_id": "DEP-CS-M2-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-247",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TD",
+      "teacher_id": "T2",
+      "target_id": "DEP-CS-M2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-248",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TP",
+      "teacher_id": "T61",
+      "target_id": "DEP-CS-M2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-249",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TD",
+      "teacher_id": "T62",
+      "target_id": "DEP-CS-M2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-250",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TP",
+      "teacher_id": "T46",
+      "target_id": "DEP-CS-M2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-251",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TD",
+      "teacher_id": "T27",
+      "target_id": "DEP-CS-M2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-252",
+      "course_id": "DEP-CS-M2-C3",
+      "session_type": "TP",
+      "teacher_id": "T14",
+      "target_id": "DEP-CS-M2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-253",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T29",
+      "target_id": "DEP-MATH-L1-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-254",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T34",
+      "target_id": "DEP-MATH-L1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-255",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T69",
+      "target_id": "DEP-MATH-L1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-256",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T6",
+      "target_id": "DEP-MATH-L1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-257",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T24",
+      "target_id": "DEP-MATH-L1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-258",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T42",
+      "target_id": "DEP-MATH-L1-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-259",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T53",
+      "target_id": "DEP-MATH-L1-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-260",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T26",
+      "target_id": "DEP-MATH-L1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-261",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T80",
+      "target_id": "DEP-MATH-L1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-262",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T71",
+      "target_id": "DEP-MATH-L1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-263",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T37",
+      "target_id": "DEP-MATH-L1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-264",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T64",
+      "target_id": "DEP-MATH-L1-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-265",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T66",
+      "target_id": "DEP-MATH-L1-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-266",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T6",
+      "target_id": "DEP-MATH-L1-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-267",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T42",
+      "target_id": "DEP-MATH-L1-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-268",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T38",
+      "target_id": "DEP-MATH-L1-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-269",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T77",
+      "target_id": "DEP-MATH-L1-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-270",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T8",
+      "target_id": "DEP-MATH-L1-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-271",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T49",
+      "target_id": "DEP-MATH-L1-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-272",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T27",
+      "target_id": "DEP-MATH-L1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-273",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T40",
+      "target_id": "DEP-MATH-L1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-274",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T79",
+      "target_id": "DEP-MATH-L1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-275",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T27",
+      "target_id": "DEP-MATH-L1-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-276",
+      "course_id": "DEP-MATH-L1-C1",
+      "session_type": "TD",
+      "teacher_id": "T42",
+      "target_id": "DEP-MATH-L1-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-277",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T77",
+      "target_id": "DEP-MATH-L1-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-278",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T71",
+      "target_id": "DEP-MATH-L1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-279",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T69",
+      "target_id": "DEP-MATH-L1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-280",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T56",
+      "target_id": "DEP-MATH-L1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-281",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T70",
+      "target_id": "DEP-MATH-L1-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-282",
+      "course_id": "DEP-MATH-L1-C2",
+      "session_type": "TD",
+      "teacher_id": "T18",
+      "target_id": "DEP-MATH-L1-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-283",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T37",
+      "target_id": "DEP-MATH-L1-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-284",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T67",
+      "target_id": "DEP-MATH-L1-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-285",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T12",
+      "target_id": "DEP-MATH-L1-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-286",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T64",
+      "target_id": "DEP-MATH-L1-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-287",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T15",
+      "target_id": "DEP-MATH-L1-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-288",
+      "course_id": "DEP-MATH-L1-C3",
+      "session_type": "TD",
+      "teacher_id": "T37",
+      "target_id": "DEP-MATH-L1-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-289",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T3",
+      "target_id": "DEP-MATH-L2-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-290",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T76",
+      "target_id": "DEP-MATH-L2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-291",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T42",
+      "target_id": "DEP-MATH-L2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-292",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T70",
+      "target_id": "DEP-MATH-L2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-293",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T8",
+      "target_id": "DEP-MATH-L2-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-294",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T79",
+      "target_id": "DEP-MATH-L2-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-295",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T5",
+      "target_id": "DEP-MATH-L2-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-296",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T8",
+      "target_id": "DEP-MATH-L2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-297",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T40",
+      "target_id": "DEP-MATH-L2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-298",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T6",
+      "target_id": "DEP-MATH-L2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-299",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T15",
+      "target_id": "DEP-MATH-L2-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-300",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T77",
+      "target_id": "DEP-MATH-L2-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-301",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T42",
+      "target_id": "DEP-MATH-L2-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-302",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T24",
+      "target_id": "DEP-MATH-L2-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-303",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T2",
+      "target_id": "DEP-MATH-L2-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-304",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T56",
+      "target_id": "DEP-MATH-L2-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-305",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T62",
+      "target_id": "DEP-MATH-L2-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-306",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T5",
+      "target_id": "DEP-MATH-L2-G1-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-307",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T33",
+      "target_id": "DEP-MATH-L2-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-308",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T67",
+      "target_id": "DEP-MATH-L2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-309",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T33",
+      "target_id": "DEP-MATH-L2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-310",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T37",
+      "target_id": "DEP-MATH-L2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-311",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T69",
+      "target_id": "DEP-MATH-L2-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-312",
+      "course_id": "DEP-MATH-L2-C1",
+      "session_type": "TD",
+      "teacher_id": "T34",
+      "target_id": "DEP-MATH-L2-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-313",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T28",
+      "target_id": "DEP-MATH-L2-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-314",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T60",
+      "target_id": "DEP-MATH-L2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-315",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T18",
+      "target_id": "DEP-MATH-L2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-316",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T76",
+      "target_id": "DEP-MATH-L2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-317",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T3",
+      "target_id": "DEP-MATH-L2-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-318",
+      "course_id": "DEP-MATH-L2-C2",
+      "session_type": "TD",
+      "teacher_id": "T20",
+      "target_id": "DEP-MATH-L2-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-319",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T66",
+      "target_id": "DEP-MATH-L2-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-320",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T61",
+      "target_id": "DEP-MATH-L2-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-321",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T37",
+      "target_id": "DEP-MATH-L2-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-322",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T38",
+      "target_id": "DEP-MATH-L2-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-323",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T49",
+      "target_id": "DEP-MATH-L2-G2-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-324",
+      "course_id": "DEP-MATH-L2-C3",
+      "session_type": "TD",
+      "teacher_id": "T39",
+      "target_id": "DEP-MATH-L2-G2-TD5",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-325",
+      "course_id": "DEP-MATH-L3-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T25",
+      "target_id": "DEP-MATH-L3-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-326",
+      "course_id": "DEP-MATH-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T80",
+      "target_id": "DEP-MATH-L3-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-327",
+      "course_id": "DEP-MATH-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T62",
+      "target_id": "DEP-MATH-L3-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-328",
+      "course_id": "DEP-MATH-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T69",
+      "target_id": "DEP-MATH-L3-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-329",
+      "course_id": "DEP-MATH-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T33",
+      "target_id": "DEP-MATH-L3-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-330",
+      "course_id": "DEP-MATH-L3-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T27",
+      "target_id": "DEP-MATH-L3-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-331",
+      "course_id": "DEP-MATH-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T4",
+      "target_id": "DEP-MATH-L3-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-332",
+      "course_id": "DEP-MATH-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T9",
+      "target_id": "DEP-MATH-L3-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-333",
+      "course_id": "DEP-MATH-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T28",
+      "target_id": "DEP-MATH-L3-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-334",
+      "course_id": "DEP-MATH-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T68",
+      "target_id": "DEP-MATH-L3-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-335",
+      "course_id": "DEP-MATH-L3-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T4",
+      "target_id": "DEP-MATH-L3-G1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-336",
+      "course_id": "DEP-MATH-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T9",
+      "target_id": "DEP-MATH-L3-G1-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-337",
+      "course_id": "DEP-MATH-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T28",
+      "target_id": "DEP-MATH-L3-G1-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-338",
+      "course_id": "DEP-MATH-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T14",
+      "target_id": "DEP-MATH-L3-G1-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-339",
+      "course_id": "DEP-MATH-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T76",
+      "target_id": "DEP-MATH-L3-G1-TD4",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-340",
+      "course_id": "DEP-MATH-L3-C1",
+      "session_type": "Lecture",
+      "teacher_id": "T68",
+      "target_id": "DEP-MATH-L3-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-341",
+      "course_id": "DEP-MATH-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T59",
+      "target_id": "DEP-MATH-L3-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-342",
+      "course_id": "DEP-MATH-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T59",
+      "target_id": "DEP-MATH-L3-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-343",
+      "course_id": "DEP-MATH-L3-C1",
+      "session_type": "TD",
+      "teacher_id": "T34",
+      "target_id": "DEP-MATH-L3-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-344",
+      "course_id": "DEP-MATH-L3-C2",
+      "session_type": "Lecture",
+      "teacher_id": "T61",
+      "target_id": "DEP-MATH-L3-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-345",
+      "course_id": "DEP-MATH-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T13",
+      "target_id": "DEP-MATH-L3-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-346",
+      "course_id": "DEP-MATH-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T60",
+      "target_id": "DEP-MATH-L3-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-347",
+      "course_id": "DEP-MATH-L3-C2",
+      "session_type": "TD",
+      "teacher_id": "T49",
+      "target_id": "DEP-MATH-L3-G2-TD3",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-348",
+      "course_id": "DEP-MATH-L3-C3",
+      "session_type": "Lecture",
+      "teacher_id": "T28",
+      "target_id": "DEP-MATH-L3-G2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-349",
+      "course_id": "DEP-MATH-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T33",
+      "target_id": "DEP-MATH-L3-G2-TD1",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-350",
+      "course_id": "DEP-MATH-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T68",
+      "target_id": "DEP-MATH-L3-G2-TD2",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "REQ-351",
+      "course_id": "DEP-MATH-L3-C3",
+      "session_type": "TD",
+      "teacher_id": "T60",
+      "target_id": "DEP-MATH-L3-G2-TD3",
+      "duration_hours": 1.5
+    }
+  ]
+}
